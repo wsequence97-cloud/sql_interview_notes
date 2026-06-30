@@ -1,0 +1,51 @@
+WITH
+FROM / JOIN / ON
+WHERE
+GROUP BY
+聚合函数
+HAVING
+SELECT
+窗口函数
+DISTINCT
+ORDER BY
+LIMIT
+
+一.连续登录
+	主要就是data_add(date,-row_number)
+	拓展：计算连读登录（间断2天内也算的，用sum(if)进行断点判断）
+二.lead/lag使用
+	lead函数
+	lag函数
+	拓展：前后列转换-----coalesce()用法，true作用 ，last_value() over(.....rows between  and )
+	拓展：真实面试----依旧断点设置老生常谈
+三.开窗函数
+	row_number   12345
+	dense_rank	 12234
+	rank			 12245
+四.累计汇总
+	sum() over()
+
+五.炸裂函数使用
+	LATERAL VIEW explode(split(category,'、')) c  ----其中c是表别名一定要有
+	LATERAL VIEW posexplode(split(student,',')) a as pos1,student_name  ----posexplode多了个索引
+	前面都要加lateral view与原表做笛卡儿积
+六.关联应用
+	表关联
+七.留存计算
+	同表关联筛选掉小的
+八.数据收缩
+	collect_list函数使用
+	concat与concat_ws函数使用与区别
+	排序要展示的是原先的还是什么的，这个得看清楚
+	断点分组！设断点再累加的思想！
+九.合并区间
+	日期计算天数---datediff
+	炸裂函数使用----用space+split做连续填充
+九.状态标记
+	collect_set与collect_list区别（collect_set去重，collect_list不去重
+九.填补空缺值
+	first_value与last_value
+	unbounded preceding 分区第一行；
+	1 preceding 当前行上一行
+	unbounded following 分区最后一行；
+	1 following 当前行下一行
