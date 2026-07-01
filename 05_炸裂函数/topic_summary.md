@@ -9,6 +9,7 @@
 * 用 `split()` 把字符串拆成数组。
 * 用 `lateral view explode()` 展开数组。
 * 展开后再做过滤、关联或聚合。
+* 反向恢复时，用 `collect_list()` 把多行收集成数组；如果要字符串结果，再用 `concat_ws()` 拼接。
 
 ## 3. 常用 Hive 函数
 
@@ -17,6 +18,7 @@
 * `lateral view explode()`
 * `posexplode()`
 * `concat_ws()`
+* `collect_list()`
 * `collect_set()`
 
 ## 4. 通用解题模板
@@ -40,13 +42,16 @@ from exploded_data;
 
 | 序号 | 文件名 | 题目标题 | 核心考点 | 是否有我的解答 | 是否已分析 |
 |---|---|---|---|---|---|
-| - | - | 当前暂无题目 | - | - | - |
+| 001 | `001_按学生恢复班级和分数列表.md` | 按学生恢复班级和分数列表 | `collect_list` 收集数组，`concat_ws` 拼接字符串 | 是 | 是 |
 
 ## 6. 本题型高频易错点
 
 * 忘记 `lateral view` 语法。
 * 分隔符没有转义。
 * 展开后行数变多，后续聚合口径需要重新确认。
+* `collect_list` 输出的是数组，`concat_ws(',', collect_list(col))` 输出的是字符串，两者不要混在一起看。
+* `concat_ws` 只能稳定处理字符串，数值列拼接前要先 `cast` 成 `string`。
+* `collect_list` 默认不保证顺序；如果列表顺序有业务含义，要先明确排序口径。
 
 ## 7. 面试表达模板
 

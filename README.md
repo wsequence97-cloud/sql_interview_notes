@@ -21,7 +21,7 @@
 | 02 | `02_lead_lag_first_last` | lead / lag / first_value / last_value | 3 |
 | 03 | `03_排序窗口函数` | row_number / rank / dense_rank / TopN | 0 |
 | 04 | `04_累计汇总` | 累计和、滚动窗口、移动平均 | 5 |
-| 05 | `05_炸裂函数` | split / explode / lateral view explode | 0 |
+| 05 | `05_炸裂函数` | split / explode / lateral view explode / collect_list | 1 |
 | 06 | `06_关联应用` | join / self join / anti join | 0 |
 | 07 | `07_留存计算` | 次日留存、N 日留存 | 0 |
 | 08 | `08_数据展开与收缩` | 行转列、列转行、集合收缩 | 0 |
@@ -66,3 +66,4 @@
 | 2026-06-30 | 补充 `003_统计每小时同时在线人数.md` 的用户原始解答和修正版本。 |
 | 2026-06-30 | 新增 `004_求最小达到累计金额日期.md`，归类到累计汇总题型。 |
 | 2026-06-30 | 新增 `005_查询历史新低的商品ID.md`，归类到累计汇总题型。 |
+| 2026-07-01 | 新增 `001_按学生恢复班级和分数列表.md`，归类到炸裂函数题型，补充 `collect_list` 与 `concat_ws` 用法。 |
