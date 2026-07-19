@@ -3,6 +3,7 @@
 .agents/
 .vscode/
 .idea/
+.worktrees/
 
 # Python environments and caches
 .venv/
