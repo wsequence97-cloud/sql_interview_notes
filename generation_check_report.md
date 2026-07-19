@@ -225,3 +225,27 @@
 | SQL159 | 26年某银行-信用卡逾期滚动迁徙矩阵 | 困难 | 进入详情核验 | `07_留存计算` | https://www.nowcoder.com/practice/1e3a3dad8fb64a48924eb28d5abf2b86 |
 
 筛选汇总：共 118 道；进入详情核验 15 道；跳过 103 道。
+
+### 详情门禁结果
+
+详情核验严格检查五项公开材料：题目描述、表结构、示例输入、期望输出，以及可作为改写依据的 SQL/MySQL 公开题解。任一项未通过均不进入生成阶段。
+
+| 题号 | 题面 | 表结构 | 示例 | 输出 | 题解 | 门禁结论 | 说明 |
+|---|---|---|---|---|---|---|---|
+| SQL40 | [通过](https://www.nowcoder.com/practice/4ab6d198ea8447fe9b6a1cad1f671503) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/893584208243740672) | PASS | 五项公开材料齐全 |
+| SQL62 | [通过](https://www.nowcoder.com/practice/847431ad931e45348eb1ab5657144c28) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/847891211250565120) | PASS | 五项公开材料齐全 |
+| SQL63 | [通过](https://www.nowcoder.com/practice/048ed413ac0e4cf4a774b906fc87e0e7) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/859739221647454208) | PASS | 五项公开材料齐全 |
+| SQL78 | [未通过](https://www.nowcoder.com/practice/62909494cecd4eab8c2501167e825566) | 未通过 | 未通过 | 未通过 | 未通过 | FAIL | 公开检索命中内容与题名或 UUID 不一致，无法可靠取得题面与题解 |
+| SQL80 | [通过](https://www.nowcoder.com/practice/89329eadd4a64126b1cd326ea0b7eff7) | 未通过 | 未通过 | 未通过 | [通过](https://www.nowcoder.com/discuss/803018196507709440) | FAIL | 公开题解可见，但完整表结构、示例输入与期望输出未可靠取得 |
+| SQL100 | [通过](https://www.nowcoder.com/practice/3d70132f4c14442cada25fec0198e743) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/886351696257880064) | PASS | 五项公开材料齐全 |
+| SQL117 | [通过](https://www.nowcoder.com/practice/99cc7f1798a84645a6aca5bdfd163fdb) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/860309138532749312) | PASS | 五项公开材料齐全 |
+| SQL129 | [通过](https://www.nowcoder.com/practice/25af5a3296c747f5b01fc589f1568514) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/873357140038082560) | PASS | 五项公开材料齐全 |
+| SQL140 | [通过](https://www.nowcoder.com/practice/ed828b0385a84e0db95f1513f43076d4) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/862375369708404736) | PASS | 五项公开材料齐全 |
+| SQL146 | [通过](https://www.nowcoder.com/practice/1a4a359d3a524cc0830c52985888bd38) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/884019944399155200) | PASS | 五项公开材料齐全 |
+| SQL150 | [通过](https://www.nowcoder.com/practice/05994083a6184554947aac96c568baaf) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/892148975673831424) | PASS | 五项公开材料齐全 |
+| SQL151 | [通过](https://www.nowcoder.com/practice/77f924a37530406ca86455381b6d1a5a) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/892386965419487232) | PASS | 五项公开材料齐全 |
+| SQL153 | [通过](https://www.nowcoder.com/practice/f97762a1c1c44f5ab5e4b6d6a1f42066) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/902608440495783936) | PASS | 五项公开材料齐全 |
+| SQL158 | [通过](https://www.nowcoder.com/practice/e5d1ebc285c14d7eb3980aa32b4b4cee) | 通过 | 通过 | 通过 | 未通过 | FAIL | 题面四项公开，但未找到公开完整 SQL/MySQL 题解依据 |
+| SQL159 | [通过](https://www.nowcoder.com/practice/1e3a3dad8fb64a48924eb28d5abf2b86) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/905118757662511104) | PASS | 五项公开材料齐全 |
+
+详情门禁汇总：通过 12 道，失败 3 道；只有通过五项门禁的 12 道题进入 Markdown 生成阶段。
