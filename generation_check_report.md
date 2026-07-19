@@ -127,7 +127,7 @@
 | SQL59 | 22年携程-统计各个部门平均薪资 | 简单 | 跳过 | 难度过低 | https://www.nowcoder.com/practice/4722fdf89a4c43eebb58d61a19ccab31 |
 | SQL60 | 22年携程-统计加班员工占比 | 中等 | 跳过 | 普通聚合 | https://www.nowcoder.com/practice/6c0a521c36e14c7599eaef858f6f8233 |
 | SQL61 | 22年携程-每天登陆最早的用户的内容喜好 | 中等 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/24bb13a28267486ba86c1d21459fa90a |
-| SQL62 | 22年携程-支付间隔平均值 | 中等 | 进入详情核验 | `02_lead_lag_first_last` | https://www.nowcoder.com/practice/847431ad931e45348eb1ab5657144c28 |
+| SQL62 | 22年携程-支付间隔平均值 | 中等 | 进入详情核验 | `06_关联应用` | https://www.nowcoder.com/practice/847431ad931e45348eb1ab5657144c28 |
 | SQL63 | 22年网易-网易云音乐推荐 | 较难 | 进入详情核验 | `06_关联应用` | https://www.nowcoder.com/practice/048ed413ac0e4cf4a774b906fc87e0e7 |
 | SQL64 | 22年网易-商品交易 | 简单 | 跳过 | 难度过低 | https://www.nowcoder.com/practice/f257dfc1b55e42e19eec004aa3cb4174 |
 | SQL65 | 23年知乎-请写出计算粉丝ctr的sql语句 | 中等 | 跳过 | 普通聚合 | https://www.nowcoder.com/practice/853a6567cf524f63bab0879b8d0bfe62 |
@@ -180,7 +180,7 @@
 | SQL114 | 24年京东-了解2023年全年所有商品的盈利情况 | 中等 | 跳过 | 普通聚合 | https://www.nowcoder.com/practice/05cbbb8662c14b46a15cbcb8993d9277 |
 | SQL115 | 24年京东-哪些产品在特定时间段内表现最为出色 | 中等 | 跳过 | 普通聚合 | https://www.nowcoder.com/practice/866a4614615b43a29750537ede4bf0c8 |
 | SQL116 | 24年饿了么-分析配送员的配送效率 | 中等 | 跳过 | 普通聚合 | https://www.nowcoder.com/practice/e27ba25e7722478eb86c832fab96fc1a |
-| SQL117 | 24年OPPO-深入分析各款产品年总销售额与竞品的年度对比 | 中等 | 进入详情核验 | `02_lead_lag_first_last` | https://www.nowcoder.com/practice/99cc7f1798a84645a6aca5bdfd163fdb |
+| SQL117 | 24年OPPO-深入分析各款产品年总销售额与竞品的年度对比 | 中等 | 进入详情核验 | `06_关联应用` | https://www.nowcoder.com/practice/99cc7f1798a84645a6aca5bdfd163fdb |
 | SQL118 | 24年OPPO-分析各产品线在特定时间段内的销售情况 | 中等 | 跳过 | 普通聚合 | https://www.nowcoder.com/practice/8a002dd7888b4247b6ac9228577bdbc3 |
 | SQL119 | 25年携程-查询高价值旅行套餐客户的支出与套餐详情 | 中等 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/957e8ab30e2745b48d2f79046df73a23 |
 | SQL120 | 24年蚂蚁-贷款情况 | 较难 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/2817d353f0634208bcf0de74f56ca8f0 |
@@ -203,7 +203,7 @@
 | SQL137 | 26年字节-宠物猫繁育族谱追溯与遗传病风险评估 | 中等 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/b81457c7327e4a17960804f3ef1a4fd3 |
 | SQL138 | 26年阿里-全民健身季推荐网络与积分衰减计算 | 中等 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/520e2c69f75247bbb05b36fc11d1df67 |
 | SQL139 | 26年字节-播客精彩片段裂变传播链统计 | 较难 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/c67a5e17dd474032aa5eac5dcffca317 |
-| SQL140 | 26年携程-找出补位班次 | 较难 | 进入详情核验 | `09_合并区间` | https://www.nowcoder.com/practice/ed828b0385a84e0db95f1513f43076d4 |
+| SQL140 | 26年携程-找出补位班次 | 较难 | 进入详情核验 | `03_排序窗口函数` | https://www.nowcoder.com/practice/ed828b0385a84e0db95f1513f43076d4 |
 | SQL141 | 26年阿里-超充站故障派单链路统计 | 较难 | 跳过 | 核心题型不匹配 | https://www.nowcoder.com/practice/0995ab4acb05404591cfab71df3d11e4 |
 | SQL142 | 26年京东-电竞赛事战队近期战绩查询 | 简单 | 跳过 | 难度过低 | https://www.nowcoder.com/practice/7dda27e223a94184a3269ed99ac42fbe |
 | SQL143 | 26年字节-骑行运动社区路线个人最佳排名 | 中等 | 跳过 | 与现有题重复 | https://www.nowcoder.com/practice/9a7bde8872dd41268e0c69b2d5cd4c42 |
@@ -249,3 +249,30 @@
 | SQL159 | [通过](https://www.nowcoder.com/practice/1e3a3dad8fb64a48924eb28d5abf2b86) | 通过 | 通过 | 通过 | [通过](https://www.nowcoder.com/discuss/905118757662511104) | PASS | 五项公开材料齐全 |
 
 详情门禁汇总：通过 12 道，失败 3 道；只有通过五项门禁的 12 道题进入 Markdown 生成阶段。
+
+## 7. 最终导入结果
+
+通过详情门禁的 12 道公开牛客题已导入对应题型目录，并完成新版 6 段结构与 Hive SQL CTE 完整版检查。
+
+| 来源题号 | 文件 | 最终目录 | 6 段结构 | Hive CTE |
+|---|---|---|---|---|
+| SQL40 | `001_每月播放量前三的周杰伦歌曲.md` | `03_排序窗口函数` | 通过 | 通过 |
+| SQL62 | `004_计算平均支付间隔.md` | `06_关联应用` | 通过 | 通过 |
+| SQL63 | `005_网易云音乐推荐.md` | `06_关联应用` | 通过 | 通过 |
+| SQL100 | `002_各类别销售额前三商品.md` | `03_排序窗口函数` | 通过 | 通过 |
+| SQL117 | `006_产品年度销售额与竞品对比.md` | `06_关联应用` | 通过 | 通过 |
+| SQL129 | `006_近7天骑手履约看板.md` | `04_累计汇总` | 通过 | 通过 |
+| SQL140 | `003_每个门店每日最佳补位班次.md` | `03_排序窗口函数` | 通过 | 通过 |
+| SQL146 | `002_新品N日复购留存矩阵.md` | `07_留存计算` | 通过 | 通过 |
+| SQL150 | `008_连续进步潜水员评选.md` | `01_连续登录` | 通过 | 通过 |
+| SQL151 | `007_核心营位帕累托分析.md` | `04_累计汇总` | 通过 | 通过 |
+| SQL153 | `003_业务漏斗转化分析.md` | `07_留存计算` | 通过 | 通过 |
+| SQL159 | `004_信用卡逾期滚动迁徙矩阵.md` | `07_留存计算` | 通过 | 通过 |
+
+未导入的 3 道候选题沿用详情门禁中已记录的拒绝原因：
+
+| 来源题号 | 结果 | 拒绝原因 |
+|---|---|---|
+| SQL78 | 未导入 | 公开检索命中内容与题名或 UUID 不一致，无法可靠取得题面与题解 |
+| SQL80 | 未导入 | 公开题解可见，但完整表结构、示例输入与期望输出未可靠取得 |
+| SQL158 | 未导入 | 题面四项公开，但未找到公开完整 SQL/MySQL 题解依据 |
